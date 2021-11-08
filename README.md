@@ -1,2 +1,2 @@
-# tourandtravel_site
+# Tour & Travel
 Landing page
