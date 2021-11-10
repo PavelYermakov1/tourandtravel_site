@@ -4,4 +4,19 @@
   --text-color: #000000;
   --text-color-2: #7D7987;
   --accent-color: #FB8F1D;
+  --white-color: #FFFFFF;
+}
+
+html {
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.1875;
+}
+
+#root {
+  box-sizing: border-box;
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 24px;
 }

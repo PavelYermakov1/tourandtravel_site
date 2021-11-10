@@ -1,0 +1,45 @@
+.tt-header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 35px 0;
+  padding: 10px 0;
+}
+
+.tt-header__logo {
+  height: 41px;
+  width: 41px;
+}
+
+.tt-header__content {
+  display: flex;
+  align-items: center;
+}
+
+.tt-header__nav-list-item {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-color);
+}
+.tt-header__nav-list-item:not(:first-child) {
+  margin-left: 34px;
+}
+
+.tt-header__nav-list-item-link {
+  display: block;
+}
+
+.tt-header__buttons {
+  display: flex;
+  margin-left: 34px;
+}
+
+.tt-header__login-button,
+.tt-header__register-button {
+  height: 44px;
+  width: 132px;
+}
+.tt-header__register-button {
+  margin-left: 18px;
+}

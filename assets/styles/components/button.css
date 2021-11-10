@@ -1,0 +1,22 @@
+.tt-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  border: 1px solid var(--accent-color);
+  border-radius: 8px;
+  font-weight: 500;
+  background-color: var(--white-color);
+  color: var(--accent-color);
+  cursor: pointer;
+}
+
+.tt-button:hover {
+  opacity: 0.75;
+}
+
+.tt-button--orange {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
