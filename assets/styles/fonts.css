@@ -9,3 +9,13 @@
   src: url(../fonts/Inter/Inter-Medium.ttf);
   font-weight: 500;
 }
+
+@font-face {
+  font-family: 'Playfair Display', serif;
+  src: url(../fonts/PlayfairDisplay/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: 'Mulish', sans-serif;
+  src: url(../fonts/Mulish/Mulish-VariableFont_wght.ttf)
+}
