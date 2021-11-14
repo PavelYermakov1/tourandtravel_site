@@ -8,6 +8,7 @@
   height: 60px;
   margin-top: 35px;
   background-color: var(--white-color);
+  z-index: 999;
 }
 
 .tt-header__logo {
