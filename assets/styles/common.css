@@ -17,10 +17,16 @@ html {
 }
 
 #root {
+  position: relative;
+}
+
+.tt--width {
   box-sizing: border-box;
-  max-width: 1220px;
-  margin: 0 auto;
-  padding: 0 24px;
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 105px;
+  padding-left: 105px;
 }
 
 h2, h3 {

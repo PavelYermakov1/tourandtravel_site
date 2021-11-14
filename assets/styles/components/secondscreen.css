@@ -1,3 +1,11 @@
+.tt-secondscreen__wrapper {
+    margin-top: 270px;
+}
+
+.tt-fourthscreen__wrapper {
+    margin-top: 232px;
+}
+
 .tt-second-fourth-screen__article-info {
     width: 100%;
     display: flex;

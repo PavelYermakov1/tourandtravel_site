@@ -1,9 +1,18 @@
+.tt-header__outer {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin-top: 35px;
+  background-color: var(--white-color);
+  z-index: 999;
+}
+
 .tt-header__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 35px 0;
-  padding: 10px 0;
+  padding: 8px 0;
 }
 
 .tt-header__logo {
