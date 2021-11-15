@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tour and Travel</title>
-    <link rel="stylesheet" href="assets/styles/main.css" />
-  </head>
-  <body>
-    <div id="root">
 
-      <div class="tt-header__outer tt--width">
-        <header class="tt-header tt-header__wrapper">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tour and Travel</title>
+  <link rel="stylesheet" href="assets/styles/main.css" />
+</head>
+
+<body>
+  <div id="root">
+
+    <header class="tt-page__header">
+      <div class="tt-page__content-wrapper">
+        <div class="tt-header tt-header__wrapper">
           <img src="./assets/img/logo.svg" alt="logo" class="tt-header__logo" />
-  
+
           <div class="tt-header__content">
             <nav class="tt-header__nav">
               <ul class="tt-header__nav-list">
@@ -35,18 +38,18 @@
             </nav>
             <div class="tt-header__buttons">
               <button class="tt-header__login-button tt-button">Login</button>
-              <button
-                class="tt-header__register-button tt-button tt-button--orange"
-              >
+              <button class="tt-header__register-button tt-button tt-button--orange">
                 Register
               </button>
             </div>
           </div>
-        </header>
+        </div>
       </div>
+    </header>
 
-      <div class="tt-page tt-page__wrapper tt--width">
-        <section class="tt-section tt-firstscreen tt-firstscreen__wrapper">
+    <section class="tt-page__section tt-page__firstscreen">
+      <div class="tt-page__content-wrapper">
+        <div class="tt-firstscreen tt-firstscreen__wrapper">
           <div class="tt-firstscreen__content">
             <h2 class="tt-firstscreen__title">Explore and Travel</h2>
             <div class="tt-firstscreen__explorer">
@@ -76,14 +79,19 @@
             </div>
           </div>
           <img src="./assets/img/thousand-01.png" alt="main screen image" class="tt-firstscreen__image">
-        </section>
-          
-        <section class="tt-section tt-second-fourth-screen tt-secondscreen__wrapper">
+        </div>
+      </div>
+    </section>
+
+    <section class="tt-page__section">
+      <div class="tt-page__content-wrapper">
+        <div class="tt-second-fourth-screen tt-secondscreen__wrapper">
           <div class="tt-second-fourth-screen__article-info">
             <img class="tt-second-fourth-screen__img" src="./assets/img/Thousand-02.png" alt="traveler">
             <div class="article-info__content">
-              <h3 >A new way to explore the world</h3>
-              <p class="article-info__text">For decades travellers have reached for Lonely Planet books when looking to plan and execute their perfect 
+              <h3>A new way to explore the world</h3>
+              <p class="article-info__text">For decades travellers have reached for Lonely Planet books when looking to
+                plan and execute their perfect
                 trip, but now, they can also let Lonely Planet Experiences lead the way
               </p>
               <button class="article-info__button tt-button tt-button--orange">
@@ -91,9 +99,13 @@
               </button>
             </div>
           </div>
-        </section>
-  
-        <section class="tt-section tt-destinations tt-destinations__wrapper">
+        </div>
+      </div>
+    </section>
+
+    <section class="tt-page__section">
+      <div class="tt-page__content-wrapper">
+        <div class="tt-destinations tt-destinations__wrapper">
           <div class="tt-destinations__heading">
             <h3 class="tt-destinations__heading_text">Featured destinations</h3>
             <a href="#" class="tt-destinations__heading_link">
@@ -127,13 +139,18 @@
               </div>
             </div>
           </div>
-        </section>
-  
-        <section class="tt-section tt-second-fourth-screen tt-fourthscreen__wrapper">
+        </div>
+      </div>
+    </section>
+
+    <section class="tt-page__section">
+      <div class="tt-page__content-wrapper">
+        <div class="tt-second-fourth-screen tt-fourthscreen__wrapper">
           <div class="tt-second-fourth-screen__article-info">
             <div class="article-info__content">
               <h3>Guides by Thousand Sunny</h3>
-              <p class="article-info__text">Packed with tips and advice from our on-the-ground experts, our city guides app (iOS and Android) is the ultimate resource before and during a trip.
+              <p class="article-info__text">Packed with tips and advice from our on-the-ground experts, our city guides
+                app (iOS and Android) is the ultimate resource before and during a trip.
               </p>
               <button class="article-info__button tt-button tt-button--orange">
                 Download
@@ -141,75 +158,72 @@
             </div>
             <img class="tt-second-fourth-screen__img" src="./assets/img/Thousand-03.png" alt="traveler">
           </div>
-        </section>
-  
-        <section class="tt-section"></section>
-        <section class="tt-section"></section>
-        <section class="tt-section"></section>
-        <section class="tt-section"></section>
-        <footer class="tt-footer tt-footer__wrapper">
-          <div class="wrapper">
-            <div class="tt-footer__content">
-              <div class="tt-footer__text">
-                <img
-                  src="./assets/img/logo.svg"
-                  alt="logo"
-                  class="tt-footer__logo"
-                />
-                <p class="tt-footer__text_information">
-                  Plan and book your perfect trip with expert advice, travel tips
-                  destination information from us
-                </p>
-                <p class="tt-footer__text_rights">©2020 Thousand Sunny. All rights reserved</p>
-              </div>
-              <div class="tt-footer__links">
-                <div>
-                  <p>Destinations</p>
-                  <a href="">Africa </a>
-                  <a href="">Antarctica </a>
-                  <a href="">Asia </a>
-                  <a href="">Europe </a>
-                  <a href="">America</a>
-                </div>
-                <div>
-                  <p>Shop</p>
-                  <a href="">Destination Guides </a>
-                  <a href="">Pictorial & Gifts </a>
-                  <a href="">Special Offers </a>
-                  <a href="">Delivery Times </a>
-                  <a href="">FAQs</a>
-                </div>
-                <div>
-                  <p>Interests</p>
-                  <a href="">Adventure Travel </a>
-                  <a href="">Art And Culture </a>
-                  <a href="">Wildlife And Nature </a>
-                  <a href="">Family Holidays </a>
-                  <a href="">Food And Drink</a>
-                </div>
-              </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="tt-page__footer">
+      <div class="tt-page__content-wrapper">
+        <div class="tt-footer">
+          <div class="tt-footer__content">
+            <div class="tt-footer__text">
+              <img src="./assets/img/logo.svg" alt="logo" class="tt-footer__logo" />
+              <p class="tt-footer__text_information">
+                Plan and book your perfect trip with expert advice, travel tips
+                destination information from us
+              </p>
+              <p class="tt-footer__text_rights">©2020 Thousand Sunny. All rights reserved</p>
             </div>
-            <div class="tt-footer__line"></div>
-            <div class="tt-footer__social-media">
-              <a href="#">
-                <img  src="./assets/img/twitter.svg" alt="twitter">
-              </a>
-              <a href="#">
-                <img  src="./assets/img/fasebook.svg" alt="fasebook">
-              </a>
-              <a href="#">
-                <img  src="./assets/img/instagramm.svg" alt="instagramm">
-              </a>
-              <a href="#">
-                <img  src="./assets/img/linkedin.svg" alt="linkedin">
-              </a>
-              <a href="#">
-                <img  src="./assets/img/youtube.svg" alt="youtube">
-              </a>
+            <div class="tt-footer__links">
+              <div>
+                <p>Destinations</p>
+                <a href="">Africa </a>
+                <a href="">Antarctica </a>
+                <a href="">Asia </a>
+                <a href="">Europe </a>
+                <a href="">America</a>
+              </div>
+              <div>
+                <p>Shop</p>
+                <a href="">Destination Guides </a>
+                <a href="">Pictorial & Gifts </a>
+                <a href="">Special Offers </a>
+                <a href="">Delivery Times </a>
+                <a href="">FAQs</a>
+              </div>
+              <div>
+                <p>Interests</p>
+                <a href="">Adventure Travel </a>
+                <a href="">Art And Culture </a>
+                <a href="">Wildlife And Nature </a>
+                <a href="">Family Holidays </a>
+                <a href="">Food And Drink</a>
+              </div>
             </div>
           </div>
-        </footer>
+          <div class="tt-footer__line"></div>
+          <div class="tt-footer__social-media">
+            <a href="#">
+              <img src="./assets/img/twitter.svg" alt="twitter">
+            </a>
+            <a href="#">
+              <img src="./assets/img/fasebook.svg" alt="fasebook">
+            </a>
+            <a href="#">
+              <img src="./assets/img/instagramm.svg" alt="instagramm">
+            </a>
+            <a href="#">
+              <img src="./assets/img/linkedin.svg" alt="linkedin">
+            </a>
+            <a href="#">
+              <img src="./assets/img/youtube.svg" alt="youtube">
+            </a>
+          </div>
+        </div>
       </div>
-    </div>
-  </body>
+    </footer>
+
+  </div>
+</body>
+
 </html

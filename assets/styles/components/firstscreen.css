@@ -1,7 +1,6 @@
 .tt-firstscreen__wrapper {
   display: flex;
   justify-content: space-between;
-  margin-top: 72px;
 }
 
 .tt-firstscreen__content {
