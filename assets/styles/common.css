@@ -23,13 +23,37 @@ html {
   position: relative;
 }
 
-.tt--width {
+.tt-page__content-wrapper {
   box-sizing: border-box;
   max-width: 1600px;
   margin-right: auto;
   margin-left: auto;
   padding-right: 105px;
   padding-left: 105px;
+}
+
+.tt-page__section,
+.tt-page__footer {
+  margin-top: 200px;
+}
+
+.tt-page__header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin-top: 35px;
+  background-color: var(--white-color);
+  z-index: 999;
+}
+
+.tt-page__firstscreen {
+  margin-top: 72px;
+}
+
+.tt-page__footer {
+  padding: 70px 0 37px;
+  background-color: var(--foot-color);
 }
 
 h2,

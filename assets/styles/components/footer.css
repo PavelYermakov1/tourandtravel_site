@@ -1,10 +1,10 @@
-.tt-footer__content {
-  display: flex;
-  margin-top: 78px;
+.tt-footer {
+  height: 100%;
+  width: 100%;
 }
 
-.tt-footer__wrapper {
-  background-color: var(--foot-color);
+.tt-footer__content {
+  display: flex;
 }
 
 .tt-footer__text {
