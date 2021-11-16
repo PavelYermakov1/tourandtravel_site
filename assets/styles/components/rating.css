@@ -1,0 +1,13 @@
+.tt-rating__star {
+  display: inline-block;
+  height: 24px;
+  width: 25px;
+  background-image: url(../../img/star.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.tt-rating__star:not(:first-child) {
+  margin-left: 16px;
+}
