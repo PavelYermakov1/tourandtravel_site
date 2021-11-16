@@ -42,3 +42,24 @@
 .tt-header__register-button {
   margin-left: 18px;
 }
+
+@media (max-width: 800px) {
+  .tt-header__logo {
+    height: 20px;
+    width: 20px;
+  }
+
+  .tt-header__nav {
+    display: none;
+  }
+
+  .tt-header__buttons {
+    margin-left: 0;
+  }
+
+  .tt-header__login-button,
+  .tt-header__register-button {
+    height: 22px;
+    width: 96px;
+  }
+}

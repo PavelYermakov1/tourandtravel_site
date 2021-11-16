@@ -79,3 +79,21 @@
     padding: 0 0 8px 8px;
   }
 }
+
+@media (max-width: 800px) {
+  .tt-destinations__heading {
+    flex-direction: column;
+  }
+
+  .tt-destinations__heading_link {
+    line-height: 1.25;
+  }
+
+  .tt-destinations__content-picture {
+    width: 100%;
+  }
+
+  .tt-destinations__content-picture:not(:first-child) {
+    margin-top: 24px;
+  }
+}

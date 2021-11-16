@@ -115,3 +115,16 @@
     margin: 24px 0;
   }
 }
+
+@media (max-width: 800px) {
+  .tt-footer__links {
+    display: none;
+  }
+
+  .tt-footer__social-media a:first-child {
+    margin: 0;
+  }
+  .tt-footer__social-media a:not(:first-child) {
+    margin: 0 0 0 24px;
+  }
+}

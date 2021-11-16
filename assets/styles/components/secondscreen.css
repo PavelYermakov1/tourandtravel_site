@@ -60,3 +60,15 @@
         text-align: center;
     }
 }
+
+@media (max-width: 800px) {
+    .article-info__button {
+        height: 34px;
+    }
+
+    .article-info__text {
+        margin: 12px 0;
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+}
