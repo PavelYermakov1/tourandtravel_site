@@ -59,3 +59,18 @@
   line-height: 1.866;
   text-align: left;
 }
+
+@media (max-width: 1300px) {
+  .tt-stories__content {
+    flex-wrap: wrap;
+    margin-top: 24px;
+  }
+
+  .tt-stories__item {
+    width: calc(50% - 12px);
+  }
+
+  .tt-stories__item:not(:nth-child(-n + 2)) {
+    margin-top: 24px;
+  }
+}

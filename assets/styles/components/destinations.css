@@ -51,3 +51,31 @@
   font-weight: 500;
   color: var(--text-color-2);
 }
+
+@media (max-width: 1300px) {
+  .tt-destinations__content {
+    flex-wrap: wrap;
+    margin-top: 28px;
+  }
+
+  .tt-destinations__content-picture {
+    height: 280px;
+    width: calc(50% - 12px);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .tt-destinations__content-picture:not(:nth-child(-n + 2)) {
+    margin-top: 24px;
+  }
+
+  .tt-destinations__content-picture > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .tt-destinations__content-picture_name {
+    padding: 0 0 8px 8px;
+  }
+}

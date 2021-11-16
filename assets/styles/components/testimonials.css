@@ -78,3 +78,31 @@
 .tt-testimonials__gallery-next {
   margin-left: 22px;
 }
+
+@media (max-width: 1300px) {
+  .tt-testimonials__title {
+    text-align: center;
+  }
+
+  .tt-testimonials__inner {
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 24px;
+  }
+
+  .tt-testimonials__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    margin-top: 24px;
+  }
+
+  .tt-testimonials__by {
+    margin: 24px 0 0 auto;
+  }
+  
+  .tt-testimonials__gallery {
+    margin-left: 0;
+  }
+}

@@ -96,3 +96,27 @@ input {
   box-sizing: border-box;
   padding: 0;
 }
+
+@media (max-width: 1300px) {
+  .tt-page__header > .tt-page__content-wrapper {
+    max-width: unset;
+  }
+
+  .tt-page__section, .tt-page__footer {
+    margin-top: 80px;
+  }
+
+  .tt-page__firstscreen {
+    margin-top: 36px;
+  }
+
+  .tt-page__content-wrapper {
+    max-width: 600px;
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+
+  .tt-page__footer {
+    padding: 34px 0 16px;
+  }
+}
