@@ -56,6 +56,15 @@ html {
   background-color: var(--foot-color);
 }
 
+.tt-page__arrow {
+  height: 11px;
+  width: 6px;
+  background-image: url(../img/arrow.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 h2,
 h3 {
   font-family: "Playfair Display", serif;
